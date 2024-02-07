@@ -10,7 +10,7 @@ const preloader = () => {
     <div className="preloader">
       <div className="texts-container anim">
         <span>Passionate </span>
-        <span> Conding </span>
+        <span> Coding </span>
         <span> Enthusiast </span>
       </div>
     </div>

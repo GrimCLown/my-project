@@ -59,10 +59,7 @@ const project = () => {
               <button
                 class="btn btn-color-2 project-btn"
                 onClick={() =>
-                  window.open(
-                    "https://app.netlify.com/sites/grimsmovieworld/overview",
-                    "blank"
-                  )
+                  window.open("https://grimsmovieworld.netlify.app/", "blank")
                 }
               >
                 Live Demo

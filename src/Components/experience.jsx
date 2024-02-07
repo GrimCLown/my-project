@@ -8,10 +8,10 @@ const experience = () => {
       <h1 class="title text-center font-bold text-5xl">Experience</h1>
 
       <div class="experience-details-container ">
-        <div class="about-containers flex flex-wrap gap-8 mt-8">
+        <div class="about-containers ">
           <div class="details-container">
-            <h2 class="experience-sub-title md-8">Programming Skills</h2>
-            <div class="article-container  flex-wrap">
+            <h2 class="experience-sub-title">Programming Skills</h2>
+            <div class="article-container ">
               <article>
                 <img src={checkmark} alt="Experience icon" class="icon" />
                 <div>
@@ -27,6 +27,7 @@ const experience = () => {
                   <p>Basic</p>
                 </div>
               </article>
+
               <article>
                 <img src={checkmark} alt="Experience icon" class="icon" />
                 <div>
@@ -69,7 +70,14 @@ const experience = () => {
               <article>
                 <img src={checkmark} alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Bootstrap/Tailwind</h3>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src={checkmark} alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Tailwind</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -116,7 +124,7 @@ const experience = () => {
               <article>
                 <img src={checkmark} alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Oracle Plsql/SQL Database</h3>
+                  <h3>Plsql/SQL</h3>
                   <p>Experienced</p>
                 </div>
               </article>
