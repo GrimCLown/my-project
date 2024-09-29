@@ -263,10 +263,12 @@ article .icon {
 
   max-width: 362px;
   max-height: 423px;
-
+  transition: transform 0.3s ease; 
   
 }
-
+.project-img:hover{
+  transform: scale(1.05);
+}
 .project-title {
   margin: 1rem;
   color: black;
@@ -438,9 +440,12 @@ footer p {
   
     max-width: 290px;
     /* max-height: 300px; */
-  
+    transition: transform 0.3s ease;
+    
     
   }
+  
+  
   .anim{
     font-size: 9px;
   }
