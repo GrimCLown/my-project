@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./../assets/bnw.png";
+import proj3 from "./../assets/summarizer.png";
 import ecom from "./../assets/EcomProj.png";
 import proj2 from "./../assets/project2Movie.jpg";
 
@@ -66,26 +66,36 @@ const project = () => {
               </button>
             </div>
           </div>
-          {/* <div class="details-container color-container">
+          <div class="details-container color-container">
             <div class="article-container">
-              <img src={profile} alt="Project 3" class="project-img" />
+              <img src={proj3} alt="Project 3" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Content Summarizer</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onClick={() =>
+                  window.open(
+                    "https://github.com/GrimCLown/Content-Summarizer-Service-Task",
+                    "blank"
+                  )
+                }
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onClick={() =>
+                  window.open(
+                    "https://cloud-react-app.pages.dev/",
+                    "blank"
+                  )
+                }
               >
                 Live Demo
               </button>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
